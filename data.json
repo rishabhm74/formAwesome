@@ -1,0 +1,109 @@
+{
+    "users" : [
+        {
+            "name" : "john",
+            "email" : "john@gmail.com",
+            "password" : "john",
+            "fullname" : "John Wick",
+            "profpic" : "john.jpeg",
+            "followers" : 23,
+            "following" : 20,
+            "username" : "jhonny03",
+            "background" : "alex-satriani-57677-unsplash.jpg",
+            "post" : [{
+                "title" : "Death at Continental",
+                "discription" : "3 dead bodies found in the lobby. Staff member suspected."
+            },{
+                "title" : "Excommunicado?",
+                "discription" : "What does excommunicado really mean."
+            },{
+                "title" : "Robbery at John Wick's house",
+                "discription" : "Thief stole around 5 lacs in cash from house."
+            },{
+                "title" : "Planning of Renovation",
+                "discription" : "High table is thinking to give hotel a new look."
+            },{
+                "title" : "Best hotel awarded",
+                "discription" : "Continental has been awarded with Best hotel award."
+            }]
+        },
+        {
+            "name" : "bill",
+            "email" : "bill@gmail.com",
+            "password" : "bill",
+            "fullname" : "Bill Cooper",
+            "profpic" : "",
+            "followers" : 120,
+            "following" : 160,
+            "username" : "billyTheGreat",
+            "background" : "nathan-queloz-S8a_7gFXkbc-unsplash.jpg",
+            "post" : [{
+                "title" : "Death at Continental",
+                "discription" : "3 dead bodies found in the lobby. Staff member suspected."
+            }]
+        },
+        {
+            "name" : "brad",
+            "email" : "brad@gmail.com",
+            "password" : "brad",
+            "fullname" : "Brad Pitt",
+            "profpic" : "brad.jpeg",
+            "followers" : 90,
+            "following" : 110,
+            "username" : "brad96",
+            "background" : "paul-knop-c7maUZ1R22w-unsplash.jpg",
+            "post" : [{
+                "title" : "Leo won oascar",
+                "discription" : "Leonardo De Caprio has been awarded with Oscars award."
+            },{
+                "title" : "Meeting with Donald Trumph",
+                "discription" : "Brad might be playing as Trumph in his upcoming movie."
+            }]
+        },
+        {
+            "name" : "keanu",
+            "email" : "keanu@gmail.com",
+            "password" : "keanu",
+            "fullname" : "Keanu Reeves",
+            "profpic" : "",
+            "followers" : 56,
+            "following" : 120,
+            "username" : "reevesK",
+            "background" : "francisco-de-legarreta-c-2qSqXJLLM_Y-unsplash.jpg",
+            "post" : [{
+                "title" : "Death at Continental",
+                "discription" : "3 dead bodies found in the lobby. Staff member suspected."
+            }]
+        },
+        {
+            "name" : "will",
+            "email" : "will@gmail.com",
+            "password" : "will",
+            "fullname" : "Will Smith",
+            "profpic" : "",
+            "followers" : 95,
+            "following" : 56,
+            "username" : "willy",
+            "background" : "grzegorz-mleczek-771-unsplash.jpg",
+            "post" : [{
+                "title" : "Death at Continental",
+                "discription" : "3 dead bodies found in the lobby. Staff member suspected."
+            }]
+        },
+        {
+            "name" : "jared",
+            "email" : "jared@gmail.com",
+            "password" : "jared",
+            "fullname" : "Jared Dunn",
+            "profpic" : "",
+            "followers" : 12,
+            "following" : 30,
+            "username" : "ojared01",
+            "background" : "john-salzarulo-H2j2rotqudo-unsplash.jpg",
+            "post" : [{
+                "title" : "Death at Continental",
+                "discription" : "3 dead bodies found in the lobby. Staff member suspected."
+            }]
+        }
+    ]
+}

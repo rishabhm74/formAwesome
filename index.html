@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In | FormAwesome</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="loader" id="loader"></div>
+
+    <div class="front_header" id="front_header">
+
+        <div class="main_container">
+
+            <div class="signup_holder" id="signup_holder">
+                <div class="left_up"></div>
+                <div class="right_in">
+                    <div class="header_up">
+                        Sign Up
+                    </div>
+                    <br>
+                    <div class="form_holder_in">
+                        <form action="" method="POST">
+                            <div class="form_inner_in">
+                                <div class="name_holder">
+                                    <div class="field">
+                                        <input type="text" placeholder=" " class="input" name="first_name" required>
+                                        <label for="first_name" class="label">Firstname</label>
+                                    </div>
+    
+                                    <div class="field">
+                                        <input  placeholder=" " type="text" class="input" name="last_name">
+                                        <label for="last_name" class="label">Lastname</label>
+                                    </div>
+                                </div>
+                                
+                                <div class="field">
+                                    <input placeholder=" "  type="email" class="emailinput" name="email" required>
+                                    <label for="email" class="label">Email</label>
+                                </div>
+                                <br>
+                                <div class="field">
+                                    <input placeholder=" "  type="password" class="inputpass" name="password" required>
+                                    <label for="password" class="label">Password</label>
+                                </div>
+                                <br>
+                                <div class="field">
+                                    <input placeholder=" "  type="password" class="inputpass" name="re_password" required>
+                                    <label for="re_password" class="label">Re-enter password</label>
+                                </div>
+                            </div>
+                            <button id="signup_button" class="signin_button" name="signup_button" type="submit">Sign Up</button><span>Already have an account?<a href="#" id="signin_link">Sign In</a></span>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="signin_holder" id="signin_holder">
+                <div class="left_in"></div>
+
+                <div class="right_in">
+                    <br><br><br>
+                    <div class="header_in">
+                        Sign In
+                    </div>
+                   
+                    <form action="" method="POST">
+                        <div class="field">
+                            <input id="inemail" placeholder=" "  type="email" class="emailinput forin" name="signinemail" required>
+                            <label for="signinemail" class="label" >Email</label>
+                        </div>
+                        <br>
+                        <div class="field">
+                            <input id="inpassword" placeholder=" "  type="password" class="inputpass forin" name="signinpassword" required>
+                            <label for="signinpassword" class="label">Password</label>
+                            <span class="show_pass_span"><button type="button" id="show_pass" class="show_pass">
+                                <img class="view_pass_ico" id="view_pass_ico" src="view_pass.png" alt="">
+                            </button></span>
+                        </div>
+                        
+                        <div class="invalid_user" id="invalid_user">
+                            Invalid email or password
+                        </div>
+
+                        <button id="signin_button" type="submit" class="signup_button">Sign In</button><span>Don't have an account?<a href="#" id="signup_link">Sign Up</a></span>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+   
+    </div>
+
+    <div class="feed_section" id="feed_section">
+
+        <div class="left_section_holder">
+            <div class="left_section">
+                <div class="profile_photo_container">
+                    <img id="profile_pic" src="" alt="">
+                    <div class="username_container" id="username_container">
+                        
+                    </div>
+                    <div class="aka_username_container" id="aka_username_container">
+                        
+                    </div>
+                </div>
+                <div class="about_container">
+                    <div class="edit_button_holder">
+                        <button class="edit_profile">Edit Profile</button>
+                    </div>
+    
+                    <div class="followers_holder">
+                        <div>
+                            followers <span id="followers"></span> following <span id="following"></span><br>
+                        </div>
+                        <div class="logout_holder" id="logout_holder">
+                            <span>logout</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right_section" id="right_section">
+
+            <nav class="profile_nav">
+                <ul>
+                    <li><a href="#" class="active"><span><img src="overview.svg"></span>&nbsp;Overview</a></li>
+                    <li><a href="#" class="nav_a">Posts</a></li>
+                    <li><a href="#" class="nav_a">Profile Settings</a></li>
+                </ul>
+            </nav>
+
+            <div class="posts_container">
+
+                <div class="pinned_header">
+                    <p>
+                        Pinned
+                    </p>
+                </div>
+
+                <div class="pinned_posts" id="pinned_posts">
+                    
+                    
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- <div class="modal">
+        <div class="main_modal">
+            <div class="modal_title">
+                Lorem ipsum dolor sit amet.
+
+                <span>
+
+                </span>
+            </div>
+            <div class="modal_data">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis cupiditate unde natus non ipsam vel quam. Voluptas voluptates dolorem necessitatibus maiores ipsa cum, ad ea similique tempore cumque velit iure!
+            </div>
+        </div>
+    </div> -->
+
+
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("signin_link").addEventListener("click", function(){
+            document.getElementById("signup_holder").style.transform = "translateX(-100%)";
+            document.getElementById("signin_holder").style.transform = "translateX(-100%)";
+            document.title = "Sign In | FormAwesome";
+        });
+
+        document.getElementById("signup_link").addEventListener("click", function(){
+            document.getElementById("signup_holder").style.transform = "translateX(0%)";
+            document.getElementById("signin_holder").style.transform = "translateX(100%)";
+            document.title = "Sign Up | FormAwesome";
+        });
+
+
+    </script>
+</body>
+</html>
